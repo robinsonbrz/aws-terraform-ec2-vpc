@@ -1,0 +1,21 @@
+.em
+.terraform
+
+# Ignore generated files
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.backup*
+plan
+*.tfplan
+
+# Ignore sensitive files
+*.tfvars
+*.auto.tfvars
+
+# Ignore local state
+terraform.lock.hcl
+
+# Ignore third-party plugins
+.terraform.lock.hcl
+notas-robinson

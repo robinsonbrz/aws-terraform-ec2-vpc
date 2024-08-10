@@ -1,10 +1,34 @@
-# Tutorial Criação de EC2 com VPC e acesso SSH com Terraform
+# Tutorial - Criação de EC2 com VPC e acesso SSH com Terraform
 
 ## Objetivo 
 
 Criar um ambiente básico EC2 na nuvem AWS utilizando IaC Terraform.
 
 Ambiente básico com procedimento guiado com principais comandos apontados em documentação.
+
+<div width="720" >
+  <div align="center">
+    <table>
+      </tr>
+            <td>
+                <a  href="https://www.linkedin.com/in/robinsonbrz/">
+                Idéia e implementação por Robinson Enedino
+            </td>
+        <td>
+            <a  href="https://www.linkedin.com/in/robinsonbrz/">
+            <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/linkedin.png" width="30" height="30">
+        </td>
+        <td>
+            <a  href="https://www.linkedin.com/in/robinsonbrz/">
+            <img  src="https://avatars.githubusercontent.com/u/18150643?s=96&amp;v=4" alt="@robinsonbrz" width="30" height="30">
+        </td>
+        <td>
+            <a href="mailto:robinsonbrz@gmail.com">
+            <img src="https://raw.githubusercontent.com/robinsonbrz/robinsonbrz/main/static/img/gmail.png" width="30" height="30" ></a>
+        </td>
+      </tr>
+    </table>
+  </div>
 
 ### Recursos alocados com Terraform:
 
@@ -14,7 +38,6 @@ Ambiente básico com procedimento guiado com principais comandos apontados em do
 - AWS subnet pública com acesso SSH, à instância EC2.
 - AWS EC2 instance
 - Criação de chave pem para acesso a instância
-
 
 ## Pré requisitos:
 
